@@ -1,0 +1,16 @@
+dependencies {
+    // implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // testCompile test_implement.junit
+    testImplementation test_implement.junit
+    // compile base_depend.commons_cli
+    implementation base_depend.commons_cli
+    // compileOnly base_depend.commons_cli
+}
+
+//uploadArchives {
+//    repositories {
+//        flatDir {
+//            dirs 'build/repos'
+//        }
+//    }
+//}
